@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global Body */
+body {
+
+  margin: 0;
+
+  font-family:
+    "Poppins",
+    sans-serif;
+
+  background-color: #f5f5f5;
+}
+
+/* Smooth Buttons */
+button {
+
+  transition: all 0.3s ease;
+}
+
+/* Navigation Button */
+.nav-btn {
+  @apply px-6 py-3 rounded-full bg-white/20 text-white font-semibold backdrop-blur-md border border-white/20 hover:bg-green-600 hover:scale-105 transition-all duration-300 cursor-pointer;
+}
+
+/* Logout Button */
+.logout-btn {
+  @apply px-6 py-3 rounded-full bg-red-500/80 text-white font-semibold hover:bg-red-600 hover:scale-105 transition-all duration-300 cursor-pointer;
+}
+
+/* Hide Scrollbar */
+::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  scrollbar-width: none;
+}

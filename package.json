@@ -1,0 +1,35 @@
+{
+  "name": "teaplantationmanagement",
+  "version": "1.0.0",
+  "description": "Tea plantation management system",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sreelakshmi-pr04/TeaPlantationManagement.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Sreelakshmi-pr04/TeaPlantationManagement/issues"
+  },
+  "homepage": "https://github.com/Sreelakshmi-pr04/TeaPlantationManagement#readme",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.5.0",
+    "react-router-dom": "^7.14.2",
+    "recharts": "^3.8.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.5.0",
+    "postcss": "^8.5.14",
+    "tailwindcss": "^3.4.3"
+  }
+}
